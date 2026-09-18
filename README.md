@@ -1,7 +1,7 @@
 ## taskManager 任务管理器参考demo中 taskManager 中的例子
 ```
 //修改Broker地址
-//修改ResultBacnend地址
+//修改ResultBackend地址
 mv Makefile.example Makefile
 make
 //taskManager 配置详细用法参考 https://github.com/RichardKnop/machinery
@@ -128,11 +128,3 @@ func main() {
     //获取任务执行完成回调
 	GetJobRunOverHandle() JobRunOverHandle
 ```
-
-
-
-
-
-
-
-
